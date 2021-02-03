@@ -3,7 +3,7 @@ namespace Lab_3
 {
     internal class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             // Переключаю кодировку stdout (консоли) на UTF8 для поддержки русского и украинского языка
             Console.OutputEncoding = System.Text.Encoding.UTF8;
