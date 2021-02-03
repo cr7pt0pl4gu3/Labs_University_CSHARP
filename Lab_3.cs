@@ -1,5 +1,5 @@
 using System;
-namespace Lab_2
+namespace Lab_3
 {
     internal class Program
     {
