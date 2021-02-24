@@ -97,11 +97,6 @@ namespace Lab_3
                 deposit += deposit / 100 * 15;
                 deposit *= usdToUah;
             }
-            else
-            {
-                Console.WriteLine("Вы ввели неправильную цифру валюты!");
-                return;
-            }
             
             Console.WriteLine("Ваш конечный баланс = {0} грн.", deposit);
         }
