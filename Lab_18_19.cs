@@ -114,14 +114,14 @@ namespace Lab_18_19
 					WriteLine($"\nMarks of {students[27]} are better than marks of {students[18]}");
 				WriteLine("\n" + new string('x', 64) + "\n" + new string('x', 64));
 
-				WriteLine("\n" + new string('x', 64) + "\nAverage marks of goup 11:");
+				WriteLine("\n" + new string('x', 64) + "\nAverage marks of group 11:");
 				for (int i = 0; i < 5; ++i)
 				{
 					double abc = (s1[i] + s2[i]) / 2.0;
 					Write(abc + "  ");
 				}
 
-				WriteLine("\n" + new string('x', 64) + "\nAverage marks of goup 21:");
+				WriteLine("\n" + new string('x', 64) + "\nAverage marks of group 21:");
 				for (int i = 0; i < 5; i++)
 				{
 					double def = (s3[i] + s4[i]) / 2.0;
